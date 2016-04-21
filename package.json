@@ -1,0 +1,27 @@
+{
+  "name": "arduinoday2016",
+  "version": "1.0.0",
+  "description": "Page information for Arduino Day 2016",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexNaupay/Arduino-Day-2016.git"
+  },
+  "keywords": [
+    "arduino",
+    "singlepage"
+  ],
+  "author": "alexh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexNaupay/Arduino-Day-2016/issues"
+  },
+  "homepage": "https://github.com/AlexNaupay/Arduino-Day-2016#readme",
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "materialize-css": "^0.97.6"
+  }
+}
