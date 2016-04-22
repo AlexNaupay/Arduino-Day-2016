@@ -1,10 +1,854 @@
-<!doctype html>
-<html lang="es-PE">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Arduino Day 2016</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Arduino Day Perú 2016</title>
+    <meta name="description" content="El evento de hardware libre más grande del mundo.">
+    <!--
+    <meta property="fb:app_id" content="302184056577324" />
+    <meta property="og:type"   content="website" />
+    <meta property="og:url"    content="Put your own URL to the object here" />
+    <meta property="og:image"  content="https://s-static.ak.fbcdn.net/images/devsite/attachment_blank.png" />
+    -->
+
+    <link rel="icon" href="https://events.google.com/io2016/images/favicon/favicon-32.png">
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="node_modules/materialize-css/dist/css/materialize.min.css" type="text/css" rel="stylesheet"
+          media="screen,projection"/>
+    <link href="static/css/app.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-    <h1>Arduino day</h1>
+<div class="navbar-fixed">
+    <nav class="arduino" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">
+                <img src="static/img/logo-day-2016.svg" alt="LOGO" height="58px" style="margin-top: 3px">
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#" class="white-text">ARDUINO DAY 2016</a></li>
+                <li><a href="#speakers" class="white-text">PONENTES</a></li>
+                <li><a href="#schedule" class="white-text">PROGRAMA</a></li>
+                <li><a href="#place" class="white-text">LUGAR</a></li>
+                <li><a href="#sponsors" class="white-text">AUSPICIADORES</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="side-nav arduino">
+                <li><a href="#" class="white-text">ARDUINO DAY 2016</a></li>
+                <li><a href="#speakers" class="white-text">PONENTES</a></li>
+                <li><a href="#schedule" class="white-text">PROGRAMA</a></li>
+                <li><a href="#place" class="white-text">LUGAR</a></li>
+                <li><a href="#sponsors" class="white-text">AUSPICIADORES</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>
+        </div>
+    </nav>
+</div>
+
+<div id="index-banner" class="parallax-container parallax-container-large">
+    <div class="section no-pad-bot">
+        <div class="container container-front">
+            <br><br>
+            <h1 class="header center white-text text-lighten-2">Arduino Day Lima 2016</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">
+                    Una celebración mundial de Arduino donde personas interesadas en Arduino
+                    se reunen a compartir sus experiencias y aprender más ...
+                </h5>
+                <h4>23 de Abril de 2016</h4>
+                <!--<h5>Auditorio Rosa Alarco de Larraburre,Biblioteca Central, UNMSM</h5>-->
+            </div>
+            <div class="row center">
+                <a href="#schedule" id="cta-button"
+                   class="btn-large waves-effect waves-orange arduino">MIRA LA AGENDA</a>
+            </div>
+            <br><br>
+
+        </div>
+    </div>
+    <div class="parallax">
+        <img src="static/img/backgrounds/arduino-lab.jpg" alt="Unsplashed background img 1">
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="section">
+
+        <!--   Icon Section   -->
+        <div class="row">
+            <div class="col s12 m8">
+                <!--<div class="icon-block">
+                    <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+                    <h5 class="center">User Experience Focused</h5>
+
+                    <p class="light">By utilizing elements and principles of Material Design, we were able to create a
+                        framework that incorporates components and animations that provide more feedback to users.
+                        Additionally, a single underlying responsive system across all platforms allow for a more
+                        unified user experience.</p>
+                </div>-->
+                <div class="carousel">
+                    <a class="carousel-item" href="#one!">
+                        <img src="static/img/slider/coche.jpg">
+                        <p class="blue-grey-text center">Coche Robot</p>
+                    </a>
+                    <a class="carousel-item" href="#two!">
+                        <img src="static/img/slider/fermin.jpg">
+                        <p class="blue-grey-text center">Investigador Fermín</p>
+                    </a>
+                    <a class="carousel-item" href="#three!">
+                        <img src="static/img/slider/grilla.jpg">
+                        <p class="blue-grey-text center">Arduino project</p>
+                    </a>
+                    <a class="carousel-item" href="#four!">
+                        <img src="static/img/slider/laptop.jpg">
+                        <p class="blue-grey-text center">Comunicación</p>
+                    </a>
+                    <a class="carousel-item" href="#five!">
+                        <img src="static/img/slider/pc.jpg">
+                        <p class="blue-grey-text center">Arduino project</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <!--<h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>-->
+                    <div class="center img-pitch">
+                        <img src="static/img/fer-gue.jpg" alt="">
+                    </div>
+                    <h4 class="center arduino-text">#ArduinoDayPeru2016</h4>
+
+                    <p class="light center-align">
+                        Ponencias, demostraciones e intercambio de experiencias en Open Hardware.
+                        Tres años representando al Peru en la fiesta del OPEN HARDWARE mas grande del mundo
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div id="speakers">
+    <div class="container">
+        <h2 class="white-t" style="color: #eee">Ponentes y Ponencias</h2>
+        <div class="row">
+
+            <!-- card speaker -->
+            <div class="col s12 m6 l4">
+                <div class="card medium hoverable card-speaker">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="static/img/speakers/dewet.jpg">
+                        <span class="card-title activator">
+                            Manejo de datos de sensores de humedad y temperatura usando dweet y Freeboard
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="material-icons right">more_vert</i></span>
+                        <p>
+                            Castro Bardales Pablo, Ramos Rodriguez Ronald, Ocrospoma Sarasi
+                            Carlos, Chávez Panduro Aldo R. SISTEMAS DISTRIBUIDOS FISI UNMSM
+                        </p>
+                        <!--<p><a href="#">This is a link</a></p>-->
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+<!--                            Manejo de datos de sensores de humedad y temperatura usando dweet y Freeboard-->
+                            <i class="material-icons right">close</i></span>
+                        <p class="grey-text">
+                            Se hara uso de una placa de Arduino, un Shield Ethernet y sensores de humedad y temperatura,
+                            obteniendo dichas medidas y enviándolas a través de internet para que esté disponible esta
+                            información a cualquier dispositivo o “cosa”, en cualquier momento y en cualquier lugar,
+                            brindando así una posibilidad increíble y sencilla de monitoreo y supervisión de dichos
+                            datos.
+                            Para la transmisión de los datos y para mostrarlos posteriormente, se hara uso también de
+                            las aplicaciones dweet y Freeboard. Dweet es un servicio de repositorio de información que
+                            almacena y transmite datos entre los diferentes dispositivos que hacen uso de ella, en
+                            formato JSON. Freeboard es una aplicación web que permite mostrar de una forma más gráfica,
+                            interactiva y sofisticada la información enviada por diferentes dispositivos que tengamos
+                            conectados en tiempo real. Tiene una completa integración con dweet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /card speaker -->
+
+            <!-- card speaker -->
+            <div class="col s12 m6 l4">
+                <div class="card medium hoverable card-speaker">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="static/img/speakers/thingspeak-cloud.jpg">
+                        <span class="card-title activator">
+                            Arduino Yun  para control de variables ambientales y posicionales con publicacion en Tihngspeak
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="material-icons right">more_vert</i></span>
+                        <p>
+                            <strong>Shirley Amaro Proa</strong>, Grupo IoT, FISI UNMSM
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <p class="grey-text">
+                            Se utilizara Arduino Yun para capturar datos de sensores ambientales y de posicion para
+                            almaenarlos en la nube. Para ello ThingSpeak proporciona una forma sencilla de almacenar y
+                            mosrar los datos enviados, en un entorno de tipo IoT disponible para todos y de amplios
+                            usos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /card speaker -->
+
+            <!-- card speaker -->
+            <div class="col s12 m6 l4">
+                <div class="card medium hoverable card-speaker">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="static/img/speakers/david-iot.jpg">
+                        <span class="card-title activator">
+                            Arduino e Intenet de las Cosas
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="material-icons right">more_vert</i></span>
+                        <p>
+                            <strong>David Cuartelles</strong> Co fundador de ARDUINO
+                        </p>
+                        <p><a target="_blank" href="http://forskning.mah.se/id/k3dacu">Más sobre David</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <p class="grey-text">
+                            David Cuartielles enseña tecnologías interactivas de la Facultad de Artes y Comunicación de
+                            la Universidad de Malmö, y es uno de los co-fundadores de la plataforma de código abierto
+                            Arduino. Publicaciones recientes incluyen: Programación de Open Accessory en Android
+                            Profesional con Arduino, y el desarrollo de la tecnología háptica móvil a través de la
+                            exploración artística
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /card speaker -->
+
+            <!-- card speaker -->
+            <div class="col s12 m6 l4">
+                <div class="card medium hoverable card-speaker">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="static/img/speakers/guerra.jpg">
+                        <span class="card-title activator">
+                            Aporte de Arduino a la curricula de la propuesta de EAP Computing Engineering en la UNMSM
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="material-icons right">more_vert</i></span>
+                        <p>
+                            <strong>Jorge Guerra Guerra</strong> FISI UNMSM
+                        </p>
+                        <p><a target="_blank" href="http://jguerra91.wix.com/arqcomp20152">Más sobre Jorge Guerra</a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <p class="grey-text">
+                            La formacion de los profesionales en Computer Science ha evolucionado dramaticamente debido
+                            a la aparicion de nuevos conceptos, nuevas herramientas y oportuniades de mercado. En el
+                            Peru uno de los cambios mas interesantes es la evolucion de soluciones basicamente
+                            destinadas a la gestion de proyectos (orientacion que relacionaba a la carrera con Ing.
+                            Industrial) al desarrollo de soluciones integradas con toma de datos en tiempo real (que nos
+                            relaciona de modo mas directo con Ing. Electronica). Por esas razones se requiere un
+                            profesional que combine las habilidades de informatica con las de Electronica, debido a ello
+                            Computer Engineering surge como una alternativa clara de una carrera enmarcada en el
+                            Computing Curricula y en los objetivos que la FISI definira en los siguientes años.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /card speaker -->
+
+            <!-- card speaker -->
+            <div class="col s12 m6 l4">
+                <div class="card medium hoverable card-speaker">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="static/img/speakers/domotica.jpg">
+                        <span class="card-title activator">
+                            Uso de BCI y Arduino en aplicaciones basadas en domotica
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="material-icons right">more_vert</i></span>
+                        <p>
+                            Daniela Benavides, Yesenia Lunarejo, Jerson Paulino .Grupo IoT, FISI UNMSM
+                        </p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <p class="grey-text">
+                            En el evento, alumnos miembros de GIOT presentaran trabajos desarrollados en los cursos de
+                            pregrado en el semestre 2015-2, en la Facultad de Ingenieria de Sistemas e Informatica de la
+                            Universidad Nacional Mayor de San Marcos, entre estos proyectos estaran:
+                        </p>
+                        <ul>
+                            <li>Uso de BCI y Arduino en aplicaciones basadas en domotica</li>
+                            <li>Uso de Drones y OpenCV para trabajos en catastro urbano</li>
+                            <li>IoT aplicado a monitoreo ambiental con Arduino usando dweet y freeboard</li>
+                            <li>Control de sensores usando PCduino y Python visualizado en Thingspeak</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /card speaker -->
+
+            <!-- card speaker -->
+            <div class="col s12 m6 l4">
+                <div class="card medium hoverable card-speaker">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="static/img/speakers/dron.jpg">
+                        <span class="card-title activator">
+                            Uso de Drones y OpenCV para trabajos en catastro urbano
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="material-icons right">more_vert</i></span>
+                        <p>
+                            Giancarlo Huachin, Jorge de la Cruz, Grupo IoT - FISI UNMSM
+                        </p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <p class="grey-text">
+                            Arduino ha sido una poderosa influencia en el campo educativo ya que permite implementar
+                            soluciones hardware y software de manera integrada. La Internet de las cosas es un concepto
+                            en el cual los sensores pueden comunicarse de manera directa con los sistemas de captacion
+                            de datos y a traves de ellos con la red para colocar los datos obtenidos y poder
+                            posteriormente procesarlos. Alli en ese estado, Arduino ha contribuido enormente en la
+                            implementacion de este concepto y en esta charla se mostraran algunos de esos resultados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /card speaker -->
+
+            <!-- card speaker -->
+            <div class="col s12 m6 l4">
+                <div class="card medium hoverable card-speaker">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="static/img/speakers/brazo-robot.jpg">
+                        <span class="card-title activator">
+                            Brazo Robót movido por sensores ubicado en el brazo a través de  la nube
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="material-icons right">more_vert</i></span>
+                        <p>
+                            Bautista Morales Ronald., Ayder Huasacca Huaraca, Grupo IoT - FISI UNMSM
+                        </p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <p class="grey-text">
+                            El presente proyecto trata del control a traves de la nube del movimiento de uun brazo Robot
+                            mediante un guante con flexores, usando Arduino Yun se pueden hacer operaciones desde mando
+                            remoto. aplicaciones como telemedicina, manejo de material peligroso estta dentro de sus
+                            campos de accion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /card speaker -->
+
+            <!-- card speaker -->
+            <div class="col s12 m6 l4">
+                <div class="card medium hoverable card-speaker">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="static/img/speakers/anonimo.jpg">
+                        <span class="card-title activator">
+                            ArduOso: Reciclando juguete
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="material-icons right">more_vert</i></span>
+                        <p>
+                            Vargas Quispe Edgar, Ayra Soto Oscar, Aguirre Bolivar María de Fátima,
+                            Alvarado Elguera Gerson , Salazar Olarte Paul, Marcelo Zavaleta Angela. Grupo FISI Robotica FISI UNMSM
+                        </p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <p class="grey-text">
+                            Arduino ha sido una poderosa influencia en el campo educativo ...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /card speaker -->
+
+            <!-- card speaker -->
+            <div class="col s12 m6 l4">
+                <div class="card medium hoverable card-speaker">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="static/img/speakers/anonimo.jpg">
+                        <span class="card-title activator">
+                            Alcoholímetro con Arduino
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="material-icons right">more_vert</i></span>
+                        <p>
+                            Aguilar Neciosup Frank, Alarcon Arauco Gian M., Alvarez Soto Jack, Arias Arias Steve James
+                            Foncy, Basurto Pedroza Jose E.. Sistemas Digitales FISI UNMSM
+                        </p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <p class="grey-text">
+                            Arduino ha sido una poderosa influencia en el campo educativo ...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /card speaker -->
+
+            <!-- card speaker -->
+            <div class="col s12 m6 l4">
+                <div class="card medium hoverable card-speaker">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="static/img/speakers/anonimo.jpg">
+                        <span class="card-title activator">
+                            Experimentando con NeuroSky y Arduino
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="material-icons right">more_vert</i></span>
+                        <p>
+                            Quispe Pérez, Jesús Erick Alejandro, Grupo FISI ROBOTICA FISI UNMSM
+                        </p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <p class="grey-text">
+                            Arduino ha sido una poderosa influencia en el campo educativo ...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /card speaker -->
+
+
+        </div>
+    </div>
+</div>
+
+
+<div id="schedule">
+    <div class="container">
+        <h2 class="arduino-text">
+            Programa
+            <small><a style="font-size: 14px; color: grey" href="http://rtvsanmarcos.unmsm.edu.pe" target="_blank">
+                Transmisión por RTV San Marcos</a>
+            </small>
+        </h2>
+        <ul class="collection">
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='08:15'>
+                <i class="material-icons circle deep-orange">today</i>
+                <span class="title schedule-title">
+                    Ingreso de los participantes al Auditorio Pedro Zulen (Biblioteca Central UNMSM)
+                </span>
+                <p>
+                    Para ingresar a la Ciudad Universitaria solo se requiere DNI
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    08:15 am
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='08:50'>
+                <i class="material-icons circle deep-orange">mic</i>
+                <span class="title schedule-title">
+                    Palabras de bienvenida de los responsables de los grupos de investigacion IOT, BIG FISI y Robótica.
+                </span>
+                <p>
+                    Ing. Armando Fermín Perez
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    08:50 am
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='09:00'>
+                <!--<i class="material-icons circle deep-orange">today</i>-->
+                <img src="static/img/sponsors/dmauricio.jpg" alt="" width="42px" class="circle">
+                <span class="title schedule-title">
+                    Inauguracion del evento ARDUINO DAY 2016 en Peru
+                </span>
+                <p>
+                    Dr. David Mauricio Sanchez,
+                    Decano de la Facultad de Ingenieria de Sistemas e Informatica UNMSM
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    09:00 am
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='09:20'>
+                <i class="material-icons circle deep-orange">mic</i>
+                <span class="title schedule-title">
+                    Arduino y la Internet de las Cosas
+                </span>
+                <p>
+                    David Cuartelles
+                    Co fundador ARDUINO
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    09:20 am
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='09:45'>
+                <i class="material-icons circle deep-orange">today</i>
+                <span class="title schedule-title">
+                    Manejo de datos de sensores de humedad y temperatura usando dweet y Freeboard
+                </span>
+                <p>
+                    Sistemas Distribuidos
+                    FISI UNMSM
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    09:45 am
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='10:20'>
+                <i class="material-icons circle deep-orange">mic</i>
+                <span class="title schedule-title">
+                    Aporte de Arduino a la curricula de la propuesta de EAP Computing Engineering en la UNMSM
+                </span>
+                <p>
+                    Lic. Jorge Guerra, FISI UNMSM
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    10:20 am
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='10:35'>
+                <i class="material-icons circle deep-orange">today</i>
+                <span class="title schedule-title">
+                    Brazo Robót movido por sensores ubicado en el brazo a través de  la nube
+                </span>
+                <p>
+                    Grupo IoT, FISI UNMSM
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    10:35 am
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='10:55'>
+                <i class="material-icons circle deep-orange">today</i>
+                <span class="title schedule-title">
+                    Uso de BCI y Arduino en aplicaciones basadas en domotica
+                </span>
+                <p>
+                    Grupo IoT FISI UNMSM
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    10:55 am
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='11:20'>
+                <i class="material-icons circle deep-orange">today</i>
+                <span class="title schedule-title">
+                    ArduOso: Reciclando juguetes
+                </span>
+                <p>
+                    Grupo FISI Robotica UNMSM
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    11:20 am
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='11:20'>
+                <i class="material-icons circle deep-orange">today</i>
+                <span class="title schedule-title">
+                    ArduOso: Reciclando juguetes
+                </span>
+                <p>
+                    Grupo FISI Robotica UNMSM
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    11:20 am
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='11:45'>
+                <i class="material-icons circle deep-orange">today</i>
+                <span class="title schedule-title">
+                    Uso de Drones y OpenCV para trabajos en catastro urbano
+                </span>
+                <p>
+                    Grupo IoT FISI UNMSM
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    11:45 am
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='12:15'>
+                <i class="material-icons circle deep-orange">today</i>
+                <span class="title schedule-title">
+                    Arduino Yun  para control de variables ambientales y posicionales con publicacion en Tihngspeak
+                </span>
+                <p>
+                    Grupo IoT FISI UNMSM
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    12:15 pm
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='12:35'>
+                <i class="material-icons circle deep-orange">today</i>
+                <span class="title schedule-title">
+                    Alcoholímetro con Arduino
+                </span>
+                <p>
+                    Sistemas Digitales FISI UNMSM
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    12:35 pm
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='12:50'>
+                <i class="material-icons circle deep-orange">today</i>
+                <span class="title schedule-title">
+                    Experimentando con NeuroSky y Arduino
+                </span>
+                <p>
+                    Grupo FISI Robotica, FISI UNMSM
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    12:50 pm
+                </span>
+            </li>
+            <!-- / item collection -->
+
+            <!-- item collection -->
+            <li class="collection-item avatar" data-hour='01:00'>
+                <i class="material-icons circle blue-grey">power_settings_new</i>
+                <span class="title schedule-title">
+                    Clausura del Evento Arduino Day 2015
+                </span>
+                <p>
+                    Dir. Instituto de Investigacion FISI UNMSM
+                </p>
+                <span class="secondary-content schedule-hour z-depth-2 ">
+                    01:00 pm
+                </span>
+            </li>
+            <!-- / item collection -->
+
+        </ul>
+    </div>
+</div>
+
+
+<div id="place" class="deep-orange">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l3">
+
+                <div class="card-panel">
+                    <h2 class="deep-orange-text">Lugar</h2>
+                    <span class="grey-text">
+                        <p>Auditorio Pedro Zulen,
+                            Pabellon de la Biblioteca Central Pedro Zulen. <br>
+                            Ciudad Universitaria de UNMSM. <br>
+                            Jr. German Amezaga S/N. Lima, Perú. <br>
+                            <div class="divider"></div>
+
+                            arduinodayperu@gmail.com <br>
+                            Tel: 511:619-7000
+                        </p>
+                    </span>
+                </div>
+
+
+            </div>
+            <div class="col s12 m12 l9">
+                <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7803.640704529207!2d-77.09008495367884!3d-12.055878420014535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c945e15e2add%3A0xda1b871ab79d9c20!2sBiblioteca+Central+%22Pedro+Zulen%22!5e0!3m2!1ses!2spe!4v1456376247213"
+                        width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen>
+
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="sponsors">
+    <div class="container">
+        <h2 class="arduino-text">Auspiciadores</h2>
+        <p>Este evento internacional no podria haverse llevado a cabo sin la valiosa colaboracion de las instituciones
+            siguientes</p>
+        <div class="row">
+            <div class="col s12 m8">
+
+                <div class="carousel carousel-sponsors">
+                    <a class="carousel-item" href="#four!">
+                        <img src="static/img/sponsors/arduino.png">
+                        <p class="blue-grey-text center">Arduino</p>
+                    </a>
+                    <a class="carousel-item" href="#three!">
+                        <img src="static/img/sponsors/botscience.jpg">
+                        <p class="blue-grey-text center">Dispositivos y tarjetas Arduino originales</p>
+                    </a>
+                    <a class="carousel-item" href="#one!">
+                        <img src="static/img/sponsors/fisi.jpg">
+                        <p class="blue-grey-text center">FISI</p>
+                    </a>
+                    <a class="carousel-item" href="#two!">
+                        <img src="static/img/sponsors/unmsm-ed.jpg">
+                        <p class="blue-grey-text center">UNMSM</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col s12 m4 card-panel hoverable arduino">
+                <div class="icon-block">
+                    <div class="center img-mauricio">
+                        <img src="static/img/sponsors/dmauricio.jpg" alt="Decano FISI">
+                    </div>
+                    <h5 class="center white-text">Agradecimiento</h5>
+
+                    <p class="light center-align white-text">
+                        Al <strong>Dr. David Mauricio Sanchez</strong>, decano de la FISI-UNMSM, que apoyó la
+                        realización de este evento.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <h3 class="header col s12 light white-text">
+                    Los esperamos! Los auspiciadores sortearán sus productos ...
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="parallax parallax-own"><img src="static/img/auditorio-unmsm-2.jpg" alt="Unsplashed background img 3"></div>
+</div>
+
+<footer class="page-footer arduino">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Acerca de Arduino Day</h5>
+                <p class="grey-text text-lighten-4">
+                    Éste es un evento gratuito y abierto a todo aquel que desee adentrarse en esta tecnología y una
+                    excelente oportunidad para <strong>conocer personas y compartir</strong> experiencias.</p>
+
+
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Links de Interés</h5>
+                <ul>
+                    <li><a class="white-text" target="_blank" href="https://www.arduino.cc">Arduino</a></li>
+                    <li><a class="white-text" target="_blank" href="http://www.sistemas.edu.pe">FISI</a></li>
+                    <li><a class="white-text" target="_blank" href="http://www.unmsm.edu.pe">UNMSM</a></li>
+                    <li><a class="white-text" target="_blank" href="http://botscience.net">Botscience</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Arduino Day 2016</h5>
+                <ul>
+                    <li><a class="white-text" href="#schedule">Programa</a></li>
+                    <li><a class="white-text" href="#speakers">Ponentes</a></li>
+                    <li><a class="white-text" href="#place">Lugar</a></li>
+                    <li><a class="white-text" href="#">Arduino day</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            Arduino & Genuino Day 2016 - Facultad de Ingeniería e Informática
+        </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+<script src="static/js/app.js"></script>
+
 </body>
 </html>
